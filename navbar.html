@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Navigation Bar</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .navbar-custom {
+        background-color: lightskyblue; 
+      }
+      .navbar-custom .navbar-brand,
+      .navbar-custom .nav-link {
+        color: #fff;
+      }
+      .navbar-custom .nav-link:hover {
+        color: #d1ecf1; 
+      }
+      body{
+        background-image: url("istockphoto-1296848705-612x612.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      .h6{
+          text-align: left;
+      }
+      .container-demo{
+          padding: 40px, 20px;
+          background-color: slategray;
+      }
+      .row{
+        text-align: center;
+      }
+      .form-group{
+        text-align: left;
+      }
+      .col-demo{
+        background-color: slategray;
+        color: lightblue;
+        padding: 20px;
+        text-align: center;
+      }
+      .mb-3{
+        text-align: left;
+      }
+      .col-demo-experience{
+        text-align: left;
+      }
+      textarea{
+        width: 1000px;
+        height: 400px;
+      }
+      .btn-success, .btn-danger{
+        width: 100px;
+        height: 50px;
+      }
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="https://obmontessoriangeles.orangeapps.ph/oa_school/home">GRADE 09 RUBY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://obmontessoriangeles.orangeapps.ph/oa_school/home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.google.com/maps/place/Operation+Brotherhood+Montessori+Center/@15.1373131,120.5945366,17z/data=!3m1!4b1!4m6!3m5!1s0x3396f237c7d7ec39:0xa3cae61a3f0a87ea!8m2!3d15.1373131!4d120.5971115!16zL20vMGY1MHM2?entry=ttu&g_ep=EgoyMDI0MTIwMi4wIKXMDSoASAFQAw%3D%3D">LOCATE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://obmontessori.edu.ph/angeles">CONTACT US</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+      <br>
+  <div class="container-demo container">
+    <div class="row">
+      <div class="col-sm-48 col-md-24 col-lg-8 col-xl-12 col-demo">
+        <h1> Veterinary Application</h1>
+      </div>
+      <div class="col-sm-24 col-md-12 col-lg-8 col-xl-6 col-demo">
+        <form>
+          <div class="form-group">
+            <label for="example_Email"> Email Address </label>
+            <input type="email" class="form-control" id="example_Email" placeholder="Please input your email">
+          </div>
+        </form>
+      </div>
+      <div class="col-sm-24 col-md-12 col-lg-8 col-xl-6 col-demo">
+        <form>
+          <div class="form-group">
+            <label for="example_Password"> Password </label>
+            <input type="Password" class="form-control" id="example_Password" placeholder="Please input your password">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container-demo container">
+    <div class="row">
+      <div class="col-sm-24 col-md-12 col-lg-8 col-xl-6 col-demo">
+        <form>
+          <div class="form-group">
+            <label for="example_Name"> Name </label>
+            <input type="text" class="form-control" id="example_Name" placeholder="Please input your Name">
+          </div>
+        </form>
+      </div>
+      <div class="col-sm-24 col-md-12 col-lg-8 col-xl-6 col-demo">
+        <form>
+          <div class="form-group">
+            <label for="example_Phone_Number"> Phone Number </label>
+            <input type="Name" class="form-control" id="example_Phone_Number" placeholder="Please input your phone number">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="container-demo container">
+      <div class="row">
+        <div class="col-sm-48 col-md-24 col-lg-8 col-xl-12 col-demo">
+          <h6 class="h6">Preferred Vetinary role</h6>
+        </div>
+      </div>
+    </div>
+    <div class="container-demo container">
+      <div class="row">
+        <div class="form-check mb-3">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1"> Vet</label>
+        </div>
+      </div>
+    </div>
+    <div class="container-demo container">
+      <div class="row">
+        <div class="form-check mb-3">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1"> Assistant-Vet</label>
+        </div>
+      </div>
+    </div>
+    <div class="container-demo container">
+      <div class="row">
+        <div class="form-check mb-3">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1"> Vet-Nurse</label>
+        </div>
+      </div>
+    </div>
+    <div class="container-demo container">
+      <div class="row">
+        <div class="form-check mb-3">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1"> Secretary</label>
+        </div>
+      </div>
+    </div>
+    <div class="container-demo container">
+      <div class="row">
+        <div class="form-check mb-3">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1"> Groomer</label>
+        </div>
+      </div>
+    </div>
+    <div class="container-demo container">
+      <div class="row">
+        <div class="col-sm-48 col-md-24 col-lg-8 col-xl-12 col-demo">
+          <h6 class="h6">What is your experience on this field?</h6>
+        </div>
+      </div>
+    </div>
+    <div class="container-demo container">
+      <div class="row">
+        <div class="col-sm-48 col-md-24 col-lg-8 col-xl-12 col-demo-experience">
+          <input type="radio" id="radio1" name="No Experience"> No Experience
+        </div>
+      </div>
+    </div>
+    <div class="container-demo container">
+      <div class="row">
+        <div class="col-sm-48 col-md-24 col-lg-8 col-xl-12 col-demo-experience">
+          <input type="radio" id="radio1" name="Little Experience"> Little Experience
+        </div>
+      </div>
+    </div>
+    <div class="container-demo container">
+      <div class="row">
+        <div class="col-sm-48 col-md-24 col-lg-8 col-xl-12 col-demo-experience">
+          <input type="radio" id="radio1" name="Professional Experience"> Professional Experience
+        </div>
+      </div>
+    </div>
+    <div class="container-demo container">
+      <div class="row">
+        <div class="col-sm-48 col-md-24 col-lg-8 col-xl-12 col-demo">
+          <h6 class="h6">What is your reason to have chosen this field?</h6>
+        </div>
+      </div>
+    </div>
+    <div class="container-demo container">
+      <div class="row">
+        <select type="select" name="select">
+          <option value="Pure interest in Veterinary">Pure interest in Veterinary</option>
+          <option value="Peer pressure">Peer pressure</option>
+          <option value="No choice left (for money)">No choice left (for money)</option>
+        </select>
+      </div>
+    </div>
+    <div class="container-demo container">
+      <div class="row">
+        <div class="col-sm-48 col-md-24 col-lg-8 col-xl-12 col-demo">
+          <h6 class="h6">Message</h6>
+        </div>
+      </div>
+    </div>
+    <div class="container-demo container">
+      <div class="row">
+        <textarea id="Message" name="Message"></textarea>
+      </div>
+    </div>
+    <br>
+    <div class="container-demo container">
+      <div class="row">
+        <button type="submit" class="btn btn-success">Submit</button>
+      </div>
+    </div>
+    <br>
+    <div class="container-demo container">
+      <div class="row">
+        <button type="Reset" class="btn btn-danger">Reset</button>
+      </div>
+    </div>
+    <br>
+  </div>
+  <br>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
